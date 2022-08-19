@@ -1,6 +1,8 @@
 const fibonacci = function (n) {
    if (n < 0) {
       return "OOPS";
+   } if (n == 1) {
+      return 1;
    }
    let a = 0; 
    let b = 1;
